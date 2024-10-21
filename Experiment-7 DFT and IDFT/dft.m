@@ -4,7 +4,7 @@ close all;
 x=input("enter sequence:");
 N=input("enter the n point:");
 l=length(x);
-x=[x zeros(1,N-1)];
+x=[x zeros(1,N-l)];
 X=zeros(N,1);
 for k=0:N-1
     for n=0:N-1
@@ -18,3 +18,18 @@ disp(round(X));
 %verification
 disp('fft');
 disp(fft(x));
+
+%plotting
+k=0:N-1;
+magX=abs(X);
+phaseX=angle(X);
+subplot(2,1,1);
+stem(k,magX);
+hold on;
+plot(k,magX);
+subplot(2,1,2);
+stem(k,phaseX);
+hold on;
+plot(k,phaseX);
+
+
