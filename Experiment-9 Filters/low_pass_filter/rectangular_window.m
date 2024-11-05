@@ -17,6 +17,6 @@ xlabel('normalized frequency');
 ylabel('magnitude in db');
 subplot(2,1,2);
 stem(wr);
-title('rectamgular window sequence');
+title('rectangular window sequence');
 xlabel('no of samples');
 ylabel('amplitude');
