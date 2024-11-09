@@ -1,3 +1,4 @@
+## THEORY
 Circular convolution is a mathematical operation that is like linear convolution but is performed in a periodic or circular manner. This is particularly useful in discrete-time signal processing where signals are often represented as periodic sequences. 
 
 Mathematical Definition: 
@@ -13,3 +14,5 @@ Applications:
 •	Digital Signal Processing: It's a fundamental operation in many digital signal processing algorithms. 
 
 •	Cyclic Convolution: In certain applications, such as cyclic prefix OFDM, circular convolution is used to simplify the implementation of linear convolution. 
+## OBSERVATION
+![image](https://github.com/user-attachments/assets/1aa7f8c0-4664-46d9-94cc-04da715abf13)
