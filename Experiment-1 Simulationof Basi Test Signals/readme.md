@@ -1,3 +1,4 @@
+## THEORY
 1.Unit Impulse Signal: 
 
 •	A signal that is zero everywhere except at one point, typically at t=0 where its value is 
@@ -51,6 +52,9 @@
 •	A signal that is zero for all negative time values and one for positive time values. 
 
 •	Mathematically `u(t) =𝟏;𝒕≥𝟎 and𝟎;𝒕<𝟎`
+## OBSERVATION
+
+![image](https://github.com/user-attachments/assets/9b5dd868-8a76-4e84-a030-034e896b9513)
 
 
 
