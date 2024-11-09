@@ -1,6 +1,7 @@
 ## THEORY
   The Discrete Fourier Transform (DFT) is a mathematical transformation used to analyze the    frequency content of discrete signals. For a sequence x[n] of length N, the DFT is defined as:
-        X[k]=∑(n=0 to N-1)x[n] ⋅e^(-j 2π/N nk),k=0,1,2,...,N-1
+  
+        `X[k]=∑(n=0 to N-1)x[n] ⋅e^(-j 2π/N nk),k=0,1,2,...,N-1`
 
 X[k] is the DFT of the sequence x[n].
 The exponential factor represents e^(-j 2π/N nk) the complex sinusoidal basis functions.
@@ -8,7 +9,7 @@ The DFT maps the time-domain signal into the frequency domain.
 
 
   The Inverse Discrete Fourier Transform (IDFT) is used to convert a frequency-domain sequence X[k] back into its time-domain sequence x[n]. The IDFT is defined as:
-       x[n]=1/N ∑(k=0toN-1)X[k] ⋅e^(j 2π/N nk),n=0,1,2,...,N-1
+       `x[n]=1/N ∑(k=0toN-1)X[k] ⋅e^(j 2π/N nk),n=0,1,2,...,N-1`
 
 The IDFT takes the frequency components X[k] and reconstructs the original sequence x[n].
 The exponential factor e^(j 2π/N nk) is the inverse of the DFT’s complex sinusoidal basis functions
@@ -66,4 +67,44 @@ fft
    0.0000 + 1.0000i   1.7071 + 1.7071i
 
    ![image](https://github.com/user-attachments/assets/a1ee5692-3d6a-4107-9cde-0e9e948f76f1)
+
+   #### IDFT
+   enter sequence:[3 -i 1 i]
+enter the n point:8
+x
+   0.5000 + 0.0000i
+   0.3750 - 0.0518i
+   0.5000 - 0.0000i
+   0.3750 + 0.0518i
+   0.5000 - 0.0000i
+   0.3750 + 0.3018i
+   0.0000 + 0.0000i
+   0.3750 - 0.3018i
+
+round(x)
+     1
+     0
+     1
+     0
+     0
+     0
+     0
+     0
+
+ifft
+  Columns 1 through 2
+
+   0.5000 + 0.0000i   0.3750 - 0.0518i
+
+  Columns 3 through 4
+
+   0.5000 + 0.0000i   0.3750 + 0.0518i
+
+  Columns 5 through 6
+
+   0.5000 + 0.0000i   0.3750 + 0.3018i
+
+  Columns 7 through 8
+
+   0.0000 + 0.0000i   0.3750 - 0.3018i
 
