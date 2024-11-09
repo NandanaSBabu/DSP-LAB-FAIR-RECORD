@@ -6,7 +6,7 @@ N = input('Enter the value of N=');
 alpha = (N-1)/2;
 eps = 0.001;
 n = 0:1:N-1;
-hd = (sin(pi*(n-alpha+eps))-sin(wc*(n-alpha+eps)))./(pi*(n-alpha+eps));
+hd = (sin(wc*(n-alpha+eps)))./(pi*(n-alpha+eps));
 wr = boxcar(N);
 wt=bartlett(N);
 wh=hamming(N);
