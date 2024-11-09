@@ -1,3 +1,4 @@
 ## OBSERVATION
 
-![image](https://github.com/user-attachments/assets/1278a1b8-7af3-431e-872c-7920aee4f82f)
+![image](https://github.com/user-attachments/assets/1318ab8e-667d-4af8-a22f-c768aa93c1e1)
+
