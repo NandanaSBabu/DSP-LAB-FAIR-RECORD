@@ -19,13 +19,19 @@ Karthik A V
    * Without using Built in Function
     
 4. Circular Convolution
-    -Concentric circle method
-    -Matrix Method
-    -FFT Method
+   * Concentric circle method
+   * Matrix method
+   * fft and ifft method
 5. Linear Convoltion using Circular Convolution and Vice versa
 6. DFT and IDFT
-    Without using Built in Function
-    Using Built in Function
 7. Properties of FFT
+   * Linearity
+   * Circular Convolution
+   * Parsevals Theorem
+   * Multilpication Theorem
 8. Overlap add and save method
 9. Filters
+   * Lowpass filter
+   * Highpass filter
+   * Bandpass filter
+   * Bandstop filter
