@@ -42,6 +42,7 @@ Circular Convolution verified
 #### PARSEVAL'S THEOREM
 enter first sequence:[1 2 3 4]
 enter second sequence:[1 1 1 1]
+
 LHS
     10
 
