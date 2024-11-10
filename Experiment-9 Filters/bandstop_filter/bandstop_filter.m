@@ -3,7 +3,7 @@ clear all;
 close all;
 wc1=0.5*pi;
 wc2=0.9*pi;
-N = input('Enter the value of N=');
+N =50;
 alpha = (N-1)/2;
 eps = 0.001;
 n = 0:1:N-1;
