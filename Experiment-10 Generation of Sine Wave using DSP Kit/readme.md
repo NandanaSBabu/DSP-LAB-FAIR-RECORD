@@ -18,3 +18,8 @@ These are sinusoidal signal parameters:
  If we denote 2πf as an angular frequency ω the we can re-write the signal as
  
                          `𝑦(𝑡)=𝐴 𝑠𝑖𝑛(𝜔𝑡+ 𝜃 )`
+
+## OBSERVATION
+
+![WhatsApp Image 2024-11-10 at 13 03 04_75d6da7c](https://github.com/user-attachments/assets/6ebcdae8-4fe7-4985-995d-655ebee380fc)
+
