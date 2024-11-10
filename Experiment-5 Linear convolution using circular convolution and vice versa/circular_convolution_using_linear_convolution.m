@@ -16,6 +16,7 @@ end
 for i=1:lt
     res=y(i);
 end
+disp('Circular using Linear convolution');
 disp(y);
 
 
@@ -31,3 +32,5 @@ X_K = fft(x);
 H_K = fft(h);
 Y_K = X_K .* H_K;
 y_fft = ifft(Y_K);
+disp('Verification');
+disp(y_fft);
