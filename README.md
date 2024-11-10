@@ -34,3 +34,6 @@ MATLAB
    * Highpass filter
    * Bandpass filter
    * Bandstop filter
+10. Familiarization of the analog and digital input andoutput ports of dsp board
+11. Generation of Sine wave using DSP Processor
+12. Linear Convolution using DSP Processor
