@@ -41,3 +41,10 @@ Time Reversal: h[-n] = [5, 4]
 Linear Convolution:
 
 x[n] * h[-n] = [5, 14, 23, 15]
+
+## OBSERVATION
+Linear Convolution using Circular Convolution output
+     1     3     6     9     7     4
+
+Verification
+     1     3     6     9     7     4
