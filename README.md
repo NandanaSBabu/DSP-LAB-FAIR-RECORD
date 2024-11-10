@@ -6,10 +6,9 @@ This Repo contains practical experiments in Digital Signal Processing Lab
 MATLAB
 
 #### Team Members
-
-Nandana S Babu
-
-Karthik A V
+- <a href ="https://github.com/NandanaSBabu">NANDANA S BABU
+- <a href ="https://github.com/kkav-43">KARTHIK A V
+ 
 #### Simulation of Basic Test Signals
 1. Simulation of Basic Test Signals
 2. Verification of Sampling Theorem
