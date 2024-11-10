@@ -14,10 +14,10 @@ for i=1:k-lt
     y(i)=y(i)+y(lt+i);
 end
 for i=1:lt
-    res=y(i);
+    res(i)=y(i);
 end
 disp('Circular using Linear convolution');
-disp(y);
+disp(res);
 
 
 % Verification using FFT-based circular convolution
