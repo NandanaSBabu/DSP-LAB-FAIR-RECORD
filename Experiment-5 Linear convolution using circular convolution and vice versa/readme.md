@@ -1,6 +1,7 @@
-Performing Linear Convolution Using Circular Convolution 
+## THEORY
+#### Performing Linear Convolution Using Circular Convolution 
 
-Method: 
+##### Method: 
 
 •	Zero-Padding: Pad both sequences x[n] and h[n] with zeros to a length of at least 2N-1, where N is the maximum length of the two sequences. This ensures that the circular convolution will not wrap around and introduce artificial periodicity. 
 
@@ -8,7 +9,7 @@ Method:
 
 •	Truncation: Truncate the result of the circular convolution to the length N1 + N2 - 1, where N1 and N2 are the lengths of the original sequences x[n] and h[n], respectively.
 
-Example: 
+#### Example: 
 
 •	Consider the sequences x[n] = [1, 2, 3] and h[n] = [4, 5]. 
 
@@ -21,9 +22,9 @@ Example:
 This result is the same as the linear convolution of x[n] and h[n].  
 
 
-Performing Circular Convolution Using Linear Convolution
+#### Performing Circular Convolution Using Linear Convolution
 
-Method:
+##### Method:
 
 Time Reversal: Reverse the sequence h[n] to obtain h[-n].
 
@@ -31,7 +32,7 @@ Linear Convolution: Perform linear convolution between x[n] and h[-n].
 
 Time Reversal (Optional): If you need the circular convolution in the original time direction, reverse the result of the linear convolution.
 
-Example:
+#### Example:
 
 Consider the sequences x[n] = [1, 2, 3] and h[n] = [4, 5].
 
