@@ -44,7 +44,17 @@ x[n] * h[-n] = [5, 14, 23, 15]
 
 ## OBSERVATION
 Linear Convolution using Circular Convolution output
+
      1     3     6     9     7     4
 
 Verification
+
      1     3     6     9     7     4
+     
+Circular using Linear convolution
+
+     8     7     6     9     
+
+Verification
+
+     8     7     6     9
