@@ -14,15 +14,15 @@ Karthik A V
 1. Simulation of Basic Test Signals
 2. Verification of Sampling Theorem
 3. Linear Convolution
-    Using Built in Function
-   Without using Built in Function
+    -Using Built in Function
+    -Without using Built in Function
 4. Circular Convolution
-    Concentric circle method
-    Matrix Method
-    FFT Method
+    -Concentric circle method
+    -Matrix Method
+    -FFT Method
 5. Linear Convoltion using Circular Convolution and Vice versa
 6. DFT and IDFT
-   Without using Built in Function
+    Without using Built in Function
     Using Built in Function
 7. Properties of DFT
     Linearity
