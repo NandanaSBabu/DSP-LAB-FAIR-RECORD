@@ -1,3 +1,4 @@
+## THEORY
 Design of FIR Filters Using Window Methods
 In FIR (Finite Impulse Response) filter design, the goal is to create a filter with specific frequency response characteristics, such as low-pass, high-pass, band-pass, or band-stop. Using window methods, we can shape the filter response by applying a window function to an ideal filter impulse response.
 Steps for FIR Filter Design Using Windows
